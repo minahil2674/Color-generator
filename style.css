@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+body{
+    transition: 0.5s;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 30rem;
+    /* height: 15rem; 1rem is equal to 16px */
+    background-color: blanchedalmond;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button{
+    font-size: 20px;
+    width: 100%;
+    background-color: rgb(204, 166, 115);
+    color: white;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
